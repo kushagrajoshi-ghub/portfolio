@@ -1,0 +1,68 @@
+.experience-item.container {
+    background: var(--color-bg-variant);
+    padding: 2.4rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    margin-bottom: 2rem;
+    position: relative;
+    max-height: 50vh;
+    overflow-y: auto; 
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-primary) var(--color-bg-variant);
+}
+
+.experience-title {
+    /* text-align: center; */
+    margin: 0.7rem 0;
+    color: var(--color-primary);
+}
+
+.experience-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.experience-company {
+    color: var(--color-primary);
+}
+
+.experience-date-range {
+    color: var(--color-primary);
+}
+
+.experience-highlights {
+    strong {
+        color: var(--color-primary);
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+}
+
+.experience-item.container::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary); /* Chrome, Safari */
+}
+
+/* Customize the scrollbar track */
+.experience-item.container::-webkit-scrollbar-track {
+    background-color: var(--color-bg-variant); /* Chrome, Safari */
+}
+
+.experience-item.container:hover {
+    /* background: transparent; */
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.li-item {
+    color: var(--color-primary);
+    margin-top: 6px;
+}

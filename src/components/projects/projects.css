@@ -1,0 +1,51 @@
+.project-heading {
+    /* background: var(--color-primary); */
+}
+
+.experience-item.container {
+    position: relative;
+}
+
+.custom-prev-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: var(--color-light);
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    color: var(--color-bg-primary);
+}
+
+.custom-next-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: var(--color-light);
+    /* background: var(--color-primary); */
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    cursor: pointer;
+}
+
+.right-arrow {
+    color: var(--color-bg-primary);
+}
+
+.slick-slider .slick-dots li button::before {
+    font-size: 10px;
+    color: var(--color-primary) !important;
+}
+
+.slick-slider .slick-dots li.slick-active button::before {
+    color: var(--color-primary) !important;
+}
